@@ -1,0 +1,23 @@
+.sections {
+    border-left: 1px solid #000;
+    padding-left: 30px;
+    overflow: hidden;
+}
+
+.sections__cell {
+    margin-bottom: 15px;
+}
+
+.sections__cell h3 span{
+    position: relative;
+    display: inline-block;
+}
+
+.sections__cell h3 span:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: calc(100% + 3px);
+    border: 1px solid #000;
+    width: 10000000%;
+}
