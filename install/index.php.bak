@@ -65,7 +65,7 @@ Class Hierarchy extends CModule
 
     function UnInstallFiles()
     {
-        DeleteDirFilesEx("/bitrix/components/devconsult");
+        DeleteDirFilesEx("/bitrix/components/hierarchy");
         return true;
     }
 
