@@ -1,0 +1,33 @@
+.hierarchically {
+    padding: 0;
+}
+
+.hierarchically>li {
+    width: 100%;
+}
+
+.hierarchically li {
+    list-style-type: none;
+}
+
+.hierarchically__elements {
+    display: none;
+}
+
+.hierarchically__section {
+    position: relative;
+    cursor: pointer;
+}
+
+.hierarchically__section .bi-caret-down-fill {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+}
+
+.hierarchically__element {
+    margin-bottom: 15px;
+}
